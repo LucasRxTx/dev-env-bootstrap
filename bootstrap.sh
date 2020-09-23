@@ -40,6 +40,9 @@ then
 
     # Cloud infrastructure
     brew install awscli
+
+    # Database
+    brew install liquidbase
 fi
 
 
