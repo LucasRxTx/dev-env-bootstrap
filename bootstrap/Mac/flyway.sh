@@ -7,7 +7,7 @@ then
         brew upgrade flyway
     else
         brew install flyway
-    then
+    fi
 else
     echo "Homebrew is not installed"
     exit 1
