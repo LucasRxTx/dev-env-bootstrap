@@ -2,7 +2,7 @@
 
 if command -v brew &> /dev/null
 then
-    if command -v flyway & /dev/null
+    if command -v flyway &> /dev/null
     then
         brew upgrade flyway
     else
