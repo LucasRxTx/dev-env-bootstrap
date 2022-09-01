@@ -38,11 +38,11 @@ then
     brew install python && pip3 install -U pip
     brew install go
     brew install rustup && rustup-init && --rustc --version
+    brew install --cask dotnet
 
     # Code Editors
     brew install vim && cp "vim/.vimrc" ~/
-    brew install --cask install visual-studio-code visual-studio
-    brew install --cask dotnet
+    brew install --cask install visual-studio-code visual-studio android-studio
 
     # Browsers
     brew install --cask google-chrome firefox
