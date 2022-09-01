@@ -35,14 +35,11 @@ then
     brew cask install visual-studio-code
 
     # Containerization and Virtualization
-    brew cask install docker minikube virtualbox
-    brew install kubectl vagrant terraform hasicorp/tap/packer
+    brew install --cask iterm2 docker minikube virtualbox dotnet visual-studio
+    brew install kubectl vagrant terraform
 
     # Cloud infrastructure
     brew install awscli
-
-    # Database
-    brew install liquidbase
 fi
 
 
