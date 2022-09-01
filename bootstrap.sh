@@ -23,6 +23,8 @@ then
     then
         # install shell tools
         bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+        echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/${USER}/.zprofile
+        eval "$(/opt/homebrew/bin/brew shellenv)"
     fi
 
     # programming languages
@@ -33,6 +35,9 @@ then
     # code editors
     brew install vim && cp "vim/.vimrc" ~/
     brew cask install visual-studio-code
+
+    # Browsers
+    brew install --cask google-chrome firefox
 
     # Containerization and Virtualization
     brew install --cask iterm2 docker dotnet visual-studio
