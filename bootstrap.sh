@@ -27,6 +27,9 @@ then
         eval "$(/opt/homebrew/bin/brew shellenv)"
     fi
 
+    # homebrew setup
+    brew tap homebrew/cask-versions
+
     # programming languages
     brew install python && pip3 install -U pip
     brew install go
