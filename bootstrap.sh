@@ -27,27 +27,32 @@ then
         eval "$(/opt/homebrew/bin/brew shellenv)"
     fi
 
-    # homebrew setup
+    # Homebrew Setup
     brew tap homebrew/cask-versions
+    
+    # Util Apps
+    brew install --cask iterm2 slack zoom microsoft-teams
+    brew install bat htop
 
-    # programming languages
+    # Programming Languages
     brew install python && pip3 install -U pip
     brew install go
     brew install rustup && rustup-init && --rustc --version
 
-    # code editors
+    # Code Editors
     brew install vim && cp "vim/.vimrc" ~/
-    brew cask install visual-studio-code
+    brew install --cask install visual-studio-code visual-studio
+    brew install --cask dotnet
 
     # Browsers
     brew install --cask google-chrome firefox
 
     # Containerization and Virtualization
-    brew install --cask iterm2 docker dotnet visual-studio
-    brew install kubectl terraform minikube
+    brew install --cask docker 
+    brew install kubectl minikube
 
-    # Cloud infrastructure
-    brew install awscli
+    # Cloud Infrastructure
+    brew install awscli terraform
 fi
 
 
