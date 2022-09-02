@@ -45,7 +45,7 @@ then
     brew install --cask install visual-studio-code visual-studio android-studio
 
     # Browsers
-    brew install --cask google-chrome firefox
+    brew install --cask google-chrome firefox brave-browser
 
     # Containerization and Virtualization
     brew install --cask docker 
