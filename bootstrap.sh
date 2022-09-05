@@ -35,6 +35,7 @@ then
     brew install bat htop
 
     # Programming Languages
+    brew install cmake
     brew install python && pip3 install -U pip
     brew install go
     brew install rustup && rustup-init && --rustc --version
