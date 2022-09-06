@@ -32,7 +32,7 @@ then
     
     # Util Apps
     brew install --cask iterm2 slack zoom microsoft-teams
-    brew install bat htop
+    brew install bat htop git-lfs
 
     # Programming Languages
     brew install cmake
