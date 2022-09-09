@@ -31,7 +31,7 @@ then
     brew tap homebrew/cask-versions
     
     # Util Apps
-    brew install --cask iterm2 slack zoom microsoft-teams
+    brew install --cask iterm2 slack zoom microsoft-teams discord
     brew install bat htop git-lfs
 
     # Programming Languages
